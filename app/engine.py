@@ -4,6 +4,7 @@ from pyspark.ml.recommendation import ALS
 from pyspark.ml.evaluation import RegressionEvaluator
 from pyspark.sql import SQLContext
 from pyspark.sql import SparkSession
+import random
 
 # - `pyspark.sql.types` : Importe les types de données nécessaires pour définir la structure du schéma des ensembles de données.
 # - `pyspark.sql.functions` : Importe les fonctions nécessaires pour effectuer des opérations sur les colonnes des ensembles de données.
